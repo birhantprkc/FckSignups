@@ -29,7 +29,7 @@ The entire site is one HTML file. No build step. No npm. No framework. Open it i
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `id` | No | URL-friendly unique identifier |
+| `id` | Yes | URL-friendly unique identifier |
 | `name` | Yes | Display name |
 | `description` | Yes | One-sentence summary |
 | `url` | Yes | Direct link to the tool |
