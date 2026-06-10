@@ -1,0 +1,43 @@
+export function Footer() {
+  return (
+    <footer>
+      <div className="footer-grid">
+        <div className="footer-col">
+          <h4>About</h4>
+          <p>
+            FckSignups is a curated directory of tools that respect your time.
+            No signups, no spam, no dark patterns.
+          </p>
+        </div>
+        <div className="footer-col">
+          <h4>Contribute</h4>
+          <p>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              Submit a tool on GitHub
+            </a>
+          </p>
+          <p>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+              Report an issue
+            </a>
+          </p>
+        </div>
+        <div className="footer-col">
+          <h4>Legal</h4>
+          <p>
+            All tools are independently verified. We don&apos;t track you. We
+            don&apos;t sell data. We don&apos;t care about your email.
+          </p>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <p>
+          © 2026 FCKSIGNUPS /// CURATED WITH SPITE ///{" "}
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            GITHUB
+          </a>
+        </p>
+      </div>
+    </footer>
+  );
+}
