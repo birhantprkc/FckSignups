@@ -12,12 +12,20 @@ export function Footer() {
         <div className="footer-col">
           <h4>Contribute</h4>
           <p>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/BraveOPotato/FckSignups/issues/new?template=request-to-add-a-tool.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Submit a tool on GitHub
             </a>
           </p>
           <p>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/BraveOPotato/FckSignups/issues/new"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Report an issue
             </a>
           </p>
@@ -33,7 +41,11 @@ export function Footer() {
       <div className="footer-bottom">
         <p>
           © 2026 FCKSIGNUPS /// CURATED WITH SPITE ///{" "}
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/BraveOPotato/FckSignups"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             GITHUB
           </a>
         </p>
