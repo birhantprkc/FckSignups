@@ -421,6 +421,54 @@
       "license": "Apache-2.0",
       "stars": 18200,
       "featured": true
+    },
+    {
+      "id": "filedrop",
+      "name": "FileDrop",
+      "description": "End-to-end encrypted peer-to-peer file transfer and chat in the",
+      "url": "https://drop.lol/",
+      "category": "utilities",
+      "tags": ["file", "transfer", "p2p"],
+      "github": "https://github.com/mat-sz/filedrop",
+      "license": "BSD-3-Clause-Clear",
+      "stars": 946,
+      "featured": false
+    },
+    {
+      "id": "clip-fish",
+      "name": "Clip Fish",
+      "description": "App for quickly sharing links, text snippets, and files.",
+      "url": "https://clip.fish/",
+      "category": "utilities",
+      "tags": ["file transfer", "text transfer", "p2p"],
+      "github": "https://github.com/clip-fish/web",
+      "license": "MIT",
+      "stars": 56,
+      "featured": false
+    },
+    {
+      "id": "ddoc",
+      "name": "dDoc",
+      "description": "A privacy-first, end-to-end encrypted alternative to Google Docs for rich document editing.",
+      "url": "https://ddocs.new/",
+      "category": "Writing & Docs",
+      "tags": ["documents", "notes"],
+      "github": "https://github.com/fileverse/fileverse-ddoc",
+      "license": "AGPL-3.0",
+      "stars": 272,
+      "featured": false
+    },
+    {
+      "id": "dsheets",
+      "name": "dSheets",
+      "description": "dsheets.new is alternative to google sheets & excel.",
+      "url": "https://dsheets.new/",
+      "category": "productivity",
+      "tags": ["spreadsheet"],
+      "github": "https://github.com/fileverse/fileverse-dsheet",
+      "license": "AGPL-3.0",
+      "stars": 65,
+      "featured": false
     }
   ]
 }
