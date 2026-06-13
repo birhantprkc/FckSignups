@@ -583,6 +583,102 @@
       "license": "MIT",
       "stars": 13100,
       "featured": false
+    },
+    {
+      "id": "pixelorama",
+      "name": "Pixelorama",
+      "description": "Create pixel art in your browser",
+      "url": "https://orama-interactive.itch.io/pixelorama",
+      "category": "design",
+      "tags": ["pixel-art", "canvas", "draw"],
+      "github": "https://github.com/Orama-Interactive/Pixelorama",
+      "license": "MIT",
+      "stars": 9700,
+      "featured": false
+    },
+    {
+      "id": "composeyogi",
+      "name": "ComposeYogi",
+      "description": "Ableton-style music composer for the web",
+      "url": "https://composeyogi.com/",
+      "category": "media",
+      "tags": ["music", "beat", "produce", "compose"],
+      "github": "https://github.com/AppsYogi-com/ComposeYogi",
+      "license": "MIT",
+      "stars": 93,
+      "featured": false
+    },
+    {
+      "id": "drumhaus",
+      "name": "Drumhaus",
+      "description": "Computer Controlled Rhythmic Groove Machine",
+      "url": "https://drumha.us/",
+      "category": "media",
+      "tags": ["music", "beat", "rythm"],
+      "github": "https://github.com/mxfng/drumhaus",
+      "license": "CC BY-NC-SA 4.0",
+      "stars": 144,
+      "featured": false
+    },
+    {
+      "id": "vert",
+      "name": "VERT",
+      "description": "File-converter fully in-browser",
+      "url": "https://vert.sh/",
+      "category": "utilities",
+      "tags": ["file-conversion", "file", "convert"],
+      "github": "https://github.com/VERT-sh/VERT",
+      "license": "AGPL-3.0",
+      "stars": 15100,
+      "featured": false
+    },
+    {
+      "id": "godsvg",
+      "name": "GodSVG",
+      "description": "Structured SVG editor",
+      "url": "https://www.godsvg.com/editor/",
+      "category": "design",
+      "tags": ["svg", "editor"],
+      "github": "https://github.com/MewPurPur/GodSVG",
+      "license": "MIT",
+      "stars": 2500,
+      "featured": false
+    },
+    {
+      "id": "spliit",
+      "name": "Spliit",
+      "description": "Share expenses with your friends and family",
+      "url": "https://spliit.app/",
+      "category": "utilities",
+      "tags": ["bill-splitting", "money", "expense"],
+      "github": "https://github.com/spliit-app/spliit",
+      "license": "MIT",
+      "stars": 2800,
+      "featured": false
+    },
+    {
+      "id": "paperknife",
+      "name": "PaperKnife",
+      "description": "Merge, split, compress, and edit PDFs 100% locally on your device",
+      "url": "https://potatameister.github.io/PaperKnife/",
+      "category": "utilities",
+      "tags": ["pdf", "pdf-tools"],
+      "github": "https://github.com/potatameister/PaperKnife",
+      "license": "AGPL-3.0",
+      "stars": 1300,
+      "featured": false
+    },
+    {
+      "id": "squoosh",
+      "name": "Squoosh",
+      "description": "Image compression web app that reduces image sizes through numerous formats",
+      "url": "https://squoosh.app/",
+      "category": "media",
+      "tags": ["image", "compression", "picture"],
+      "github": "https://github.com/GoogleChromeLabs/squoosh/",
+      "license": "Apache-2.0",
+      "stars": 25400,
+      "featured": false
     }
   ]
 }
