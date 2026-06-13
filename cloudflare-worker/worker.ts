@@ -135,11 +135,15 @@ export default {
 ----
 For automation tool:
 
-<SUBMISSION>${sub.name};;${sub.description};;${sub.url};;${sub.tags.length ? sub.tags.join(", ") : "—"};;${sub.github || "—"};;${sub.category}</SUBMISSION>
+<SUBMISSION>${sub.name};;${sub.description};;${sub.url};;${sub.tags.length ? sub.tags.join(",") : "—"};;${sub.github || "—"};;${sub.category}</SUBMISSION>
 
 ----
 *Submitted via fcksignups.com*
     `.trim();
+
+    // Added to make it easier to spot in the GitHub Issues page.
+    const labels = ["tool-submission"];
+    if (!sub.github) labels.push("no-repo-link");
 
     const res = await fetch(
       `https://api.github.com/repos/${env.GITHUB_REPO_OWNER}/${env.GITHUB_REPO_NAME}/issues`,
@@ -154,7 +158,7 @@ For automation tool:
         body: JSON.stringify({
           title: `[Tool Submission Request] ${sub.name}`,
           body: issueBody,
-          labels: ["tool-submission"],
+          labels: labels,
         }),
       },
     );
