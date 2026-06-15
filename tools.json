@@ -847,6 +847,102 @@
       "license": "MIT",
       "stars": 113,
       "featured": false
+    },
+    {
+      "id": "quickretro",
+      "name": "QuickRetro",
+      "description": "Real-time app for conducting a remote sprint retrospective meeting",
+      "url": "https://quickretro.app/",
+      "category": "Productivity",
+      "tags": ["project-management", "agile", "scrum"],
+      "github": "https://github.com/vijeeshr/quickretro",
+      "license": "AGPL-3.0",
+      "stars": 32,
+      "featured": false
+    },
+    {
+      "id": "grade-boundaries",
+      "name": "Grade Boundaries",
+      "description": "A level and IGCSE grade boundary lookup",
+      "url": "https://gradeboundaries.com",
+      "category": "data",
+      "tags": ["education", "dataset", "a-level"],
+      "github": "https://github.com/Grade-Boundaries",
+      "license": "CC BY-NC 4.0",
+      "stars": 5,
+      "featured": false
+    },
+    {
+      "id": "enclosed",
+      "name": "Enclosed",
+      "description": "Minimalistic web application designed for sending end-to-end encrypted notes and files",
+      "url": "https://enclosed.cc/",
+      "category": "utilities",
+      "tags": ["notes", "file-sharing", "files"],
+      "github": "https://github.com/CorentinTh/enclosed",
+      "license": "Apache-2.0",
+      "stars": 2000,
+      "featured": false
+    },
+    {
+      "id": "image-max-url",
+      "name": "Image Max URL",
+      "description": "Finds larger/original versions of images and videos",
+      "url": "https://qsniyg.github.io/maxurl/",
+      "category": "media",
+      "tags": ["image", "video", "size"],
+      "github": "https://github.com/qsniyg/maxurl",
+      "license": "Apache-2.0",
+      "stars": 1600,
+      "featured": false
+    },
+    {
+      "id": "qrazybox",
+      "name": "QRazyBox",
+      "description": "web-based application (a toolkit), that used to analyzing and recovering damaged QR Code",
+      "url": "https://merricx.github.io/qrazybox/",
+      "category": "utilities",
+      "tags": ["qr-code", "recovery", "analysis"],
+      "github": "https://github.com/Merricx/qrazybox",
+      "license": "MIT",
+      "stars": 521,
+      "featured": false
+    },
+    {
+      "id": "vecto3d",
+      "name": "Vecto3d",
+      "description": "A super simple tool to convert your SVG's to 3D models",
+      "url": "https://vecto3d.app/",
+      "category": "design",
+      "tags": ["3d", "svg", "design", "model"],
+      "github": "https://github.com/lakshaybhushan/vecto3d",
+      "license": "MIT",
+      "stars": 1400,
+      "featured": false
+    },
+    {
+      "id": "metadata-remover",
+      "name": "Metadata Remover",
+      "description": "Removes metadata from supported formats in-browser using WASM",
+      "url": "https://ianonymous3000.github.io/metadata-remover/",
+      "category": "privacy",
+      "tags": ["metadata", "file", "remover"],
+      "github": "https://github.com/iAnonymous3000/metadata-remover",
+      "license": "MIT",
+      "stars": 74,
+      "featured": false
+    },
+    {
+      "id": "dashboard-icons",
+      "name": "Dashboard Icons",
+      "description": "A collection of over 1800 curated icons for services, applications and tools, designed specifically for dashboards and app directories",
+      "url": "https://dashboardicons.com/",
+      "category": "design",
+      "tags": ["design", "png", "svg", "logos", "icons"],
+      "github": "https://github.com/homarr-labs/dashboard-icons",
+      "license": "Apache-2.0",
+      "stars": 8300,
+      "featured": false
     }
   ]
 }
