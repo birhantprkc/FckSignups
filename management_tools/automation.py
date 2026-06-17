@@ -1,5 +1,5 @@
 from addTool import getArrayInput, getInput, loadJSONFile, slugify, updateJSONFile
-from githubBridge import GitHubRepoBridge
+from githubBridge import GitHubIssueBridge, GitHubRepoBridge
 
 # GLOBAL CONSTANTS
 JSON_PATH = "../tools.json"
@@ -46,8 +46,9 @@ def printAllCategories(json_file_data):
 
 
 def main():
-    automation_input = input("Automation string: ")
-    fields = automation_input.split(";;")
+    userInput = input("Issue URL:")
+    issueBridge = GitHubIssueBridge(userInput)
+    fields = issueBridge.getAutomationString().split(";;")
 
     validate(fields)
 
@@ -63,7 +64,7 @@ def main():
     print("Adding...")
     print(json_file_data["tools"][-1])
 
-    updateJSONFile(json_file_data)
+    # updateJSONFile(json_file_data)
 
 
 if __name__ == "__main__":
