@@ -1548,6 +1548,102 @@
       "license": "MIT",
       "stars": 9176,
       "featured": false
+    },
+    {
+      "id": "explainshellcom",
+      "name": "explainshell.com",
+      "description": "Match command-line arguments to their help text",
+      "url": "https://explainshell.com/",
+      "category": "development",
+      "tags": ["cli", "command", "shell"],
+      "github": "https://github.com/idank/explainshell",
+      "license": "GPL-3.0",
+      "stars": 14086,
+      "featured": false
+    },
+    {
+      "id": "pattern-craft",
+      "name": "Pattern Craft",
+      "description": "Professional-grade background patterns and gradients for your websites and apps",
+      "url": "https://patterncraft.fun/",
+      "category": "design",
+      "tags": ["background", "patterns", "gradient"],
+      "github": "https://github.com/megh-bari/pattern-craft",
+      "license": "MIT",
+      "stars": 3015,
+      "featured": false
+    },
+    {
+      "id": "component-gallery",
+      "name": "Component Gallery",
+      "description": "The Component Gallery is a collection of components from the best Design Systems.",
+      "url": "https://component.gallery/",
+      "category": "design",
+      "tags": ["ui", "components", "design-systems"],
+      "github": "https://github.com/inbn/component-gallery",
+      "license": "?",
+      "stars": 334,
+      "featured": false
+    },
+    {
+      "id": "s-2-v",
+      "name": "s-2-v",
+      "description": "A simple collection of video processing tools",
+      "url": "https://s-2-v.pages.dev/",
+      "category": "media",
+      "tags": ["video", "trim", "convert", "merge", "gif"],
+      "github": "https://github.com/kuronekony4n/sequence-to-video",
+      "license": "?",
+      "stars": 0,
+      "featured": false
+    },
+    {
+      "id": "asm-editor",
+      "name": "ASM Editor",
+      "description": "A web editor to write, run and learn assembly code (X86, MIPS, RISC-V, M68K)",
+      "url": "https://asm-editor.specy.app",
+      "category": "development",
+      "tags": ["assembly", "code", "learn"],
+      "github": "https://github.com/Specy/asm-editor",
+      "license": "AGPL-3.0",
+      "stars": 306,
+      "featured": false
+    },
+    {
+      "id": "tokeko",
+      "name": "Tokeko",
+      "description": "An online creation tool for LALR and LR(1) parsers to learn how language theory works",
+      "url": "https://tokeko.specy.app/",
+      "category": "development",
+      "tags": ["code", "editor", "interactive", "learn"],
+      "github": "https://github.com/Specy/tokeko",
+      "license": "",
+      "stars": 27,
+      "featured": false
+    },
+    {
+      "id": "rooc-optimization",
+      "name": "ROOC Optimization",
+      "description": "A web platform for modelling and solving linear optimization problems",
+      "url": "https://rooc.specy.app/",
+      "category": "development",
+      "tags": ["milp", "solver", "optimization"],
+      "github": "https://github.com/Specy/rooc",
+      "license": "MPL-2.0",
+      "stars": 64,
+      "featured": false
+    },
+    {
+      "id": "klecks",
+      "name": "Klecks",
+      "description": "Modern and feature-rich painting app for the web",
+      "url": "https://kleki.com/",
+      "category": "design",
+      "tags": ["draw"],
+      "github": "https://github.com/bitbof/klecks",
+      "license": "MIT",
+      "stars": 360,
+      "featured": false
     }
   ]
 }
