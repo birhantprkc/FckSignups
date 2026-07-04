@@ -22,7 +22,7 @@ export function ToolCard({
   const { showModalWithID } = useModal();
 
   function handleReport(tool: Tool) {
-    showModalWithID("report-tool", { "tool-id": tool.id });
+    showModalWithID("report-tool", { toolId: tool.id });
   }
 
   return (
