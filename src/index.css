@@ -525,8 +525,54 @@ input[type="text"]::placeholder {
 
 .card-title-wrap {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.2rem;
+}
+
+.card-category-icon {
+    aspect-ratio: 1/1;
+    width: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.2rem;
+}
+
+.card-category-icon[data-category="design"] {
+    background-color: white;
+}
+
+.card-category-icon[data-category="development"] {
+    background-color: black;
+}
+
+.card-category-icon[data-category="productivity"] {
+    background-color: #ff627e;
+}
+
+.card-category-icon[data-category="writing"] {
+    background-color: #5f5f5f;
+}
+
+.card-category-icon[data-category="privacy"] {
+    background-color: #00230e;
+}
+
+.card-category-icon[data-category="utilities"] {
+    background-color: #001e38;
+}
+
+.card-category-icon[data-category="data"] {
+    background-color: #39007d;
+}
+
+.card-category-icon[data-category="media"] {
+    background-color: #ff01cb;
+}
+
+.card-category-icon[data-category="education"] {
+    background-color: #f7ff00;
 }
 
 .card-title {

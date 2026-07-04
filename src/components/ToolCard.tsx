@@ -27,6 +27,9 @@ export function ToolCard({ tool, category, setSearchQuery }: ToolCardProps) {
     >
       <div className="card-header">
         <div className="card-title-wrap">
+          <div className="card-category-icon" data-category={tool.category}>
+            <span>{cat.icon}</span>
+          </div>
           <a
             href={tool.url}
             target="_blank"
