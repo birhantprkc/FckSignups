@@ -12,7 +12,7 @@
     --border-light: #333;
     --text: #f0f0f0;
     --text-dim: #aaa;
-    --text-muted: #777;
+    --text-muted: #fff;
     --accent: #ff0040;
     --accent-2: #00ff88;
     --accent-3: #ffaa00;
@@ -310,7 +310,7 @@ h1 .fck::after {
 }
 
 .search-box::before {
-    content: "▸";
+    content: ">";
     position: absolute;
     left: 1rem;
     top: 50%;

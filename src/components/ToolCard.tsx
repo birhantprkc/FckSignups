@@ -1,22 +1,16 @@
 import type { Tool, Category } from "../types";
 import { ExternalIcon, GitHubIcon, StarIcon } from "../constants/icons";
-import { formatStars, padIndex } from "../utils/formatters";
+import { formatStars } from "../utils/formatters";
 import { useReport } from "../hooks/useReport";
 import { useModal } from "../hooks/useModal";
 
 interface ToolCardProps {
   tool: Tool;
-  index: number;
   category: Category | undefined;
   setSearchQuery: (query: string) => void;
 }
 
-export function ToolCard({
-  tool,
-  index,
-  category,
-  setSearchQuery,
-}: ToolCardProps) {
+export function ToolCard({ tool, category, setSearchQuery }: ToolCardProps) {
   const cat = category ?? { icon: "◉", name: tool.category };
   const { reportMode } = useReport();
   const { showModalWithID } = useModal();
@@ -31,10 +25,6 @@ export function ToolCard({
       data-highlighted={reportMode}
       onClick={() => (reportMode ? handleReport(tool) : null)}
     >
-      <div className="card-index">
-        INDEX_{padIndex(index)} // {tool.id.toUpperCase()}
-      </div>
-
       <div className="card-header">
         <div className="card-title-wrap">
           <a

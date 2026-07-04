@@ -47,11 +47,10 @@ export function ToolGrid({
         </div>
       )}
 
-      {tools.map((tool, idx) => (
+      {tools.map((tool) => (
         <ToolCard
           key={tool.id}
           tool={tool}
-          index={idx + 1}
           category={categories.find((c) => c.id === tool.category)}
           setSearchQuery={setSearchQuery}
         />
