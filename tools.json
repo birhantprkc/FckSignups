@@ -53,6 +53,12 @@
       "name": "Education",
       "icon": "🎓",
       "description": "Learn and study without creating accounts"
+    },
+    {
+      "id": "lists",
+      "name": "Lists",
+      "icon": "📜",
+      "description": "Lists that contain useful information"
     }
   ],
   "tools": [
@@ -2232,6 +2238,90 @@
       "github": "https://github.com/Great-Software-Company/strongeditor",
       "license": "GPL-3.0",
       "stars": 6,
+      "featured": false
+    },
+    {
+      "id": "shareclean",
+      "name": "ShareClean",
+      "description": "A tool for sanitizing logs, stack traces, config snippets, and terminal output before you paste them into GitHub issues, support tickets, Slack, or AI chats.",
+      "url": "https://omarh-creator.github.io/ShareClean/#playground",
+      "category": "privacy",
+      "tags": ["sanitize-text", "clean-text", "traces", "logs", "configs"],
+      "github": "https://github.com/OmarH-creator/ShareClean",
+      "license": "MIT",
+      "stars": 13,
+      "featured": false
+    },
+    {
+      "id": "beziermotion",
+      "name": "BezierMotion",
+      "description": "A visual cubic-bezier curve editor for crafting custom CSS easing functions",
+      "url": "https://tughloks.github.io/BezierMotion/",
+      "category": "development",
+      "tags": ["bezier", "motion", "visualizer"],
+      "github": "https://github.com/TughlokS/BezierMotion",
+      "license": "?",
+      "stars": 1,
+      "featured": false
+    },
+    {
+      "id": "word-aligner",
+      "name": "Word Aligner",
+      "description": "Link words across a translation, then export the diagram.",
+      "url": "https://aligner.tinygods.dev",
+      "category": "design",
+      "tags": ["word-aligner"],
+      "github": "https://github.com/tinygodsdev/bitext-word-alignment",
+      "license": "MIT",
+      "stars": 4,
+      "featured": false
+    },
+    {
+      "id": "log-voyager",
+      "name": "Log Voyager",
+      "description": "Analyze huge log files (10GB+). Features JSON prettifier, regex filtering, and bookmarks.",
+      "url": "https://www.logvoyager.cc/",
+      "category": "development",
+      "tags": ["logs", "analyze", "visualize"],
+      "github": "https://github.com/hsr88/log-voyager",
+      "license": "MIT",
+      "stars": 116,
+      "featured": false
+    },
+    {
+      "id": "csv-repair",
+      "name": "CSV Repair",
+      "description": "A free, browser-based tool for analyzing, querying, and repairing broken or oversized CSV files",
+      "url": "https://www.csv.repair/",
+      "category": "development",
+      "tags": ["csv", "analyze", "visualize", "query"],
+      "github": "https://github.com/hsr88/csv-repair",
+      "license": "?",
+      "stars": 8,
+      "featured": false
+    },
+    {
+      "id": "free-fordev",
+      "name": "free-for.dev",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "url": "https://free-for.dev/#/",
+      "category": "lists",
+      "tags": ["resources-list", "free-tiers", "paas", "saas"],
+      "github": "https://github.com/ripienaar/free-for-dev",
+      "license": "?",
+      "stars": 128712,
+      "featured": false
+    },
+    {
+      "id": "freemediaheckyeah",
+      "name": "freemediaheckyeah",
+      "description": "The largest collection of free stuff on the internet!",
+      "url": "https://fmhy.net/",
+      "category": "lists",
+      "tags": ["free-media", "resource-list"],
+      "github": "https://github.com/fmhy/edit",
+      "license": "?",
+      "stars": 10536,
       "featured": false
     }
   ]
