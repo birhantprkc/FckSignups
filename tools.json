@@ -448,7 +448,7 @@
     },
     {
       "id": "ddoc",
-      "name": "dDoc",
+      "name": "dDocs",
       "description": "A privacy-first, end-to-end encrypted alternative to Google Docs for rich document editing.",
       "url": "https://ddocs.new/",
       "category": "writing",
