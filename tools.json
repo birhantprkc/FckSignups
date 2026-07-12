@@ -2465,6 +2465,78 @@
       "license": "Custom",
       "stars": 14,
       "featured": false
+    },
+    {
+      "id": "app-store-web-search",
+      "name": "App Store Web Search",
+      "description": "A web app that enables you to search the Apple App Store in your browser and view app meta-data.",
+      "url": "https://vexelon.net/asws",
+      "category": "development",
+      "tags": ["app-store-search", "search"],
+      "github": "https://github.com/petarov/appstore-web-search",
+      "license": "MIT",
+      "stars": 14,
+      "featured": false
+    },
+    {
+      "id": "quizbun",
+      "name": "Quizbun",
+      "description": "static, explanation-first quiz catalog for self-learners, with public quizzes, private local imports, and an AI-first quiz format",
+      "url": "https://a-dev.github.io/quizbun/",
+      "category": "education",
+      "tags": ["quiz-maker", "quizzes-library", "quiz-ai", "quizzes"],
+      "github": "https://github.com/a-dev/quizbun",
+      "license": "MIT",
+      "stars": 1,
+      "featured": false
+    },
+    {
+      "id": "e2ecp",
+      "name": "e2ecp",
+      "description": "Transfer files between machines through the web, through a CLI, or both fully end-to-end encrypted. Made by the dev of croc file transfer",
+      "url": "https://e2ecp.com",
+      "category": "utilities",
+      "tags": ["file-transfer", "file-share"],
+      "github": "https://github.com/schollz/e2ecp",
+      "license": "MIT",
+      "stars": 501,
+      "featured": false
+    },
+    {
+      "id": "osint-framework",
+      "name": "OSINT Framework",
+      "description": "An open-source, browser-based directory of OSINT tools and resources organized by investigation category.",
+      "url": "https://osintframework.com/",
+      "category": "lists",
+      "tags": ["directory", "list", "osint-tools", "intelligence", "research"],
+      "github": "https://github.com/lockfale/OSINT-Framework",
+      "license": "MIT",
+      "stars": 11700,
+      "featured": false
+    },
+    {
+      "id": "openhero",
+      "name": "Openhero",
+      "description": "collection of cinematic video hero sections Browse, preview, copy & download production-ready backgrounds - instantly",
+      "url": "https://openhero.art/",
+      "category": "development",
+      "tags": ["hero-sections"],
+      "github": "https://github.com/CristianOlivera1/openhero",
+      "license": "MIT",
+      "stars": 311,
+      "featured": false
+    },
+    {
+      "id": "freecut",
+      "name": "FreeCut",
+      "description": "Professional video editing, zero installation. Create stunning content in your browser",
+      "url": "https://freecut.net",
+      "category": "media",
+      "tags": ["capcut-alternative", "video-editor"],
+      "github": "https://github.com/walterlow/freecut",
+      "license": "MIT",
+      "stars": 1523,
+      "featured": false
     }
   ]
 }
