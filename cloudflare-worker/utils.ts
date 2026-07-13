@@ -1,5 +1,6 @@
 export function corsHeaders(origin: string): Record<string, string> {
   const allowed = [
+    "https://nosignups.net",
     "https://fcksignups.com",
     "https://www.fcksignups.com",
     "http://localhost:5173",
