@@ -52,6 +52,7 @@ function makeURLField(
         name={field.name}
         placeholder={field.placeholder}
         required={field.required}
+        title="Make sure to prefix with https://"
         pattern="https?://.+"
         value={fieldValues[field.name] ?? field.value ?? ""}
         onChange={(event) => updateField(field.name, event.target.value)}

@@ -2681,6 +2681,78 @@
       "license": "MIT",
       "stars": 981,
       "featured": false
+    },
+    {
+      "id": "lanjut",
+      "name": "Lanjut",
+      "description": "ATS-Friendly Resume Builder",
+      "url": "https://lanjut.rimzzlabs.com",
+      "category": "productivity",
+      "tags": ["resume-builder", "cv-builder"],
+      "github": "https://github.com/rimzzlabs/lanjut",
+      "license": "AGPL-3.0",
+      "stars": 37,
+      "featured": false
+    },
+    {
+      "id": "markdown2pdf",
+      "name": "markdown2pdf",
+      "description": "A markdown to PDF converter & live previewer",
+      "url": "https://markdown2pdfconverter.vercel.app/",
+      "category": "writing",
+      "tags": ["markdown-to-pdf", "markdown-preview"],
+      "github": "https://github.com/sahilatahar/markdown2pdf",
+      "license": "MIT",
+      "stars": 6,
+      "featured": false
+    },
+    {
+      "id": "avnac",
+      "name": "Avnac",
+      "description": "design editor for posters, layouts, social graphics, and other canvas-based compositions",
+      "url": "https://avnac.design/",
+      "category": "design",
+      "tags": ["poster-designer"],
+      "github": "https://github.com/xt42io/avnac",
+      "license": "AGPL-3.0",
+      "stars": 1524,
+      "featured": false
+    },
+    {
+      "id": "openmosh",
+      "name": "OpenMosh",
+      "description": "Datamosh your photos and videos, glitch effects in sync with music.",
+      "url": "https://open-mosh.vercel.app/",
+      "category": "design",
+      "tags": ["glitch-effect", "photo-effects", "lite-photo-editor"],
+      "github": "https://github.com/zivavu/OpenMosh",
+      "license": "MIT",
+      "stars": 2,
+      "featured": false
+    },
+    {
+      "id": "monkeytype",
+      "name": "Monkeytype",
+      "description": "The most customizable typing website with a minimalistic design and a ton of features. Test yourself in various modes, track your progress and improve your speed",
+      "url": "https://monkeytype.com/",
+      "category": "productivity",
+      "tags": ["typing-tool", "learn-to-type", "type-speed"],
+      "github": "https://github.com/monkeytypegame/monkeytype",
+      "license": "GPL-3.0",
+      "stars": 20400,
+      "featured": false
+    },
+    {
+      "id": "bottleship",
+      "name": "BottleShip",
+      "description": "Run classic Windows games in your browser",
+      "url": "https://bottleship.pages.dev/",
+      "category": "utilities",
+      "tags": ["gaming", "emulator", "retro", "windows"],
+      "github": "https://github.com/jenissimo/bottleship",
+      "license": "Apache-2.0",
+      "stars": 60,
+      "featured": false
     }
   ]
 }
