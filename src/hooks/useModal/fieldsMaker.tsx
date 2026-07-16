@@ -36,6 +36,30 @@ function makeTextField(
   );
 }
 
+function makeURLField(
+  field: TextField,
+  fieldValues: ModalFieldValues,
+  updateField: (name: string, value: string) => void,
+) {
+  return (
+    <>
+      <label className="modal-label" htmlFor={field.name}>
+        {field.label}
+      </label>
+      <input
+        className="modal-input"
+        id={field.name}
+        name={field.name}
+        placeholder={field.placeholder}
+        required={field.required}
+        pattern="https?://.+"
+        value={fieldValues[field.name] ?? field.value ?? ""}
+        onChange={(event) => updateField(field.name, event.target.value)}
+      />
+    </>
+  );
+}
+
 function makeSelectField(
   field: SelectField,
   fieldValues: ModalFieldValues,
@@ -111,6 +135,8 @@ export function fieldsMaker(
           return makeSelectField(field, activeFieldValues, updateField);
         case "textarea":
           return makeTextAreaField(field, activeFieldValues, updateField);
+        case "url":
+          return makeURLField(field, activeFieldValues, updateField);
       }
     }),
   );
