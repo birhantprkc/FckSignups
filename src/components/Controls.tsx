@@ -51,7 +51,7 @@ export function Controls({
             return (
               <button
                 key={cat.id}
-                className={`cat-btn${cat.id === activeCategory ? " active" : ""}`}
+                className={`cat-btn${isCurrent ? " active" : ""}`}
                 data-id={cat.id}
                 title={cat.description}
                 aria-pressed={isCurrent}
@@ -61,7 +61,7 @@ export function Controls({
                 <span aria-hidden="true">{cat.icon}</span>
                 {cat.name}
                 <span className="count" aria-hidden="true">
-                  {String(counts[cat.id] ?? 0).padStart(2, "0")}
+                  {String(countNum).padStart(2, "0")}
                 </span>
               </button>
             );
